@@ -1,0 +1,50 @@
+/*void main() { 
+  runApp(MaterialApp(home:Home(),));
+}
+class Home extends StatelessWidget
+{
+  Widget build(BuildContext context)
+  {
+    return Scaffold(
+    appBar: AppBar( 
+      title: Text("HIIII BHAI KAISA H!!!!!!!"),
+      backgroundColor: Colors.red[400],
+      centerTitle: true,
+    ),  
+
+    body: Center(
+      child: Text("HI IM AYUSH AND DEVELOPING THIS APPPPP"),
+      ),
+ floatingActionButton: FloatingActionButton(
+  onPressed: (){
+    print("ok");
+  },
+  backgroundColor: Colors.blue,
+  child: Icon(Icons.assistant_navigation),
+  
+  
+  ),
+
+
+    );
+
+    
+  }
+}
+
+
+
+
+
+/*class MyApp extends  StatelessWidget
+{
+@override
+  Widget build(BuildContext context)
+  {
+    return Container(
+
+    );
+  }
+}
+*/
+*/
