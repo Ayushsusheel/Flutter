@@ -1,7 +1,10 @@
 
 
+import 'dart:js';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/homePAGE.dart';
+import 'package:flutter_application_1/PAGES/LOGINPAGE.dart';
+import 'package:flutter_application_1/PAGES/homePAGE.dart';
 
 
 
@@ -21,9 +24,25 @@ class MyApp extends StatelessWidget {
   
    
     return MaterialApp(
-      home: HOMEPAGE(),
-    
+      ////////////home: HOMEPAGE(),
+    themeMode : ThemeMode.light,
+    theme: ThemeData(),
+    darkTheme: ThemeData(
+      brightness: Brightness.dark
+      
+      ),
+      initialRoute: "/home", 
+routes : {
+              "/": (context)=>LOGINPAGE(),
+                "/home" :(context)=>HOMEPAGE(),
+
+
+
+
+}
     );
+  
+  
       
     
   }
